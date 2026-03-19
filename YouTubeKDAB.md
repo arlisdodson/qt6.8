@@ -35,3 +35,50 @@
         * I am not seeing "C++ Reference Guide" in my display
             * "cppreference.com"
             * "learncpp.com"
+* Part 04 - Qt's Object Model
+
+
+# GitHub PeterFeicht cppreference-doc
+
+> NUC1 Ubuntu 24.04 LTS
+
+```
+$ sudo apt-get install python3-venv python3-all
+$ sudo apt-get install qttools5-dev-tools
+
+... provides qhelpgenerator ...
+
+```
+
+```
+$ python3 -m venv cppreference_env
+$ source cppreference_env/bin/activate
+(cppreference_env)$
+```
+
+```
+(cppreference_env)$ pip install cssutils
+(cppreference_env)$ pip install lxml
+(cppreference_env)$ pip install premailer
+(cppreference_env)$
+```
+
+```
+(cppreference_env)$ cd ~/projects/github/PeterFeicht/cppreference-doc
+(cppreference_env)$ mkdir -p output/reference_cssless
+(cppreference_env)$ make doc_ach
+
+generates output/cppreference-doc-en-cpp.qch
+```
+
+> Add this to Qt Creator Help files
+
+After adding the file (Preferences - Help - Documentation - Add)
+
+```
+cppreference.com.cppreference-doc-en-cpp
+```
+
+Now Qt Creator Help displays a new Contents reference "C++ Standard Library reference"
+
+
