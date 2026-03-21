@@ -1,7 +1,6 @@
 # YouTube KDAB Channel
 
-- [KDAB](https://youtube.com/KDAB)
-    - [KDAB](https://youtube.com/KDAB)
+- [KDAB Channel](https://youtube.com/@KDABtv)
 
 # Introduction to Qt Widgets
 
@@ -36,6 +35,48 @@
             * "cppreference.com"
             * "learncpp.com"
 * Part 04 - Qt's Object Model
+   * see below
+* [Part 05 - Qt Object Model and QWidgets Basics](https://www.youtube.com/watch?v=EqHtuVnoITw&t=246s)
+   * [see below](#part-05-qt-object-model-and-qwidgets-basics)
+
+## Part 04 - Qt's Object Model
+
+> about 9 minutes into the video
+
+
+### On Heap - QObject with parent
+
+> It is forbidden to copy QObject instances
+
+```
+QLabel *label = new QLabel("Some Text", parent);
+```
+
+### On Stack - QObject without parent
+
+```
+QFile, usually local to a function
+
+QGuiApplication, local to main()
+
+Top level QWidgets QMainWindow
+```
+
+### On Stack - "value" type
+
+```
+QString name;
+QStringList list;
+QColor color;
+```
+
+> Implicitly shared - Cheap to copy
+
+> "Value" types are not QObject subclasses
+
+> Do not use "new"
+
+## Part 05 - Qt Object Model and QWidgets Basics
 
 
 # GitHub PeterFeicht cppreference-doc
