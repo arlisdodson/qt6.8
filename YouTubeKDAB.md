@@ -37,7 +37,7 @@ ee
 * Part 04 - Qt's Object Model
    * see below
 * [Part 05 - Qt Object Model and QWidgets Basics](https://www.youtube.com/watch?v=EqHtuVnoITw&t=246s)
-   * [see below](#markdown-part-05-qt-object-model-and-qwidgets-basics)
+   * [see below](#part05)
 
 ## Part 04 - Qt's Object Model
 
@@ -76,7 +76,9 @@ QColor color;
 
 > Do not use "new"
 
-## Part 05 - Qt Object Model and QWidgets Basics
+## Part05
+
+> Part 05 - Qt Object Model and QWidgets Basics
 
 
 # GitHub PeterFeicht cppreference-doc
