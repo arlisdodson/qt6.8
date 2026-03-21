@@ -35,11 +35,11 @@ ee
             * "cppreference.com"
             * "learncpp.com"
 * Part 04 - Qt's Object Model
-   * [see below](#part-04-qt's-object-model)
+   * [see below](#part-04-qt-object-model)
 * [Part 05 - Qt Object Model and QWidgets Basics](https://www.youtube.com/watch?v=EqHtuVnoITw)
    * [see below](#part-05-qt-object-model-and-qwidgets-basics)
 
-## Part 04 Qt's Object Model
+## Part 04 Qt Object Model
 
 > about 9 minutes into the video
 
