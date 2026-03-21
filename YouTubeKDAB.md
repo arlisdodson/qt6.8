@@ -35,11 +35,11 @@ ee
             * "cppreference.com"
             * "learncpp.com"
 * Part 04 - Qt's Object Model
-   * see below
-* [Part 05 - Qt Object Model and QWidgets Basics](https://www.youtube.com/watch?v=EqHtuVnoITw&t=246s)
+   * [see below](#part-04-qt's-object-model)
+* [Part 05 - Qt Object Model and QWidgets Basics](https://www.youtube.com/watch?v=EqHtuVnoITw)
    * [see below](#part-05-qt-object-model-and-qwidgets-basics)
 
-## Part 04 - Qt's Object Model
+## Part 04 Qt's Object Model
 
 > about 9 minutes into the video
 
@@ -76,7 +76,7 @@ QColor color;
 
 > Do not use "new"
 
-## Part 05 Blah Qt Object Model and QWidgets Basics
+## Part 05 Qt Object Model and QWidgets Basics
 
 
 # GitHub PeterFeicht cppreference-doc
